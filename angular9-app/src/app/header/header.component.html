@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" [routerLink]="['']">Angular 9 with IFrame (angularjs)
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item" [routerLinkActive]="['active']">
+                <a class="nav-link" [routerLink]="['ng9-counter']">ng9-counter
+                </a>
+            </li>
+            <li class="nav-item" [routerLinkActive]="['active']">
+                <a class="nav-link" [routerLink]="['ng9-other']">ng9-other
+                </a>
+            </li>
+
+            <li class="nav-item" [routerLinkActive]="['active']">
+                <a class="nav-link" href="/#!/ngjs-counter">ngjs-counter
+                </a>
+            <li class="nav-item" [routerLinkActive]="['active']">
+                <a class="nav-link" href="/#!/ngjs-other">ngjs-other</a>
+            </li>
+        </ul>
+    </div>
+</nav>
